@@ -1,6 +1,6 @@
 
 class CsvParser {
-    fun parseCsv(csvData: String): Order? {
+    fun parse(csvData: String): Order? {
         val type = csvData[0]
 
         return when (type) {
